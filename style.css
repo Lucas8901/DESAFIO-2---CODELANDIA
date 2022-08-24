@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@400;700&display=swap');
+/*RESET GERAIS*/
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+img{
+  display: block;
+  width: 100%;
+}
+
+/*CAPA E DESCRIÇÃO*/
+.content{
+  background: #D7D5FF;
+  width: 100%;
+  height:560px;
+
+}
+.container{
+  max-width: 1440px;
+  margin-left: 101px;
+  margin-right: 101px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.conteudos{
+  max-width: 349px;
+  padding-top: 140px;
+}
+
+.conteudos h1{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height:2.938rem;
+  margin-bottom: 17.5px;
+}
+
+.conteudos p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.188rem;
+  line-height: 2rem;
+  margin-bottom: 25px;
+  color: #555555;
+}
+button{
+  padding: 15px 40px;
+  background: #6C63FF;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+.img{
+  max-width: 500px;
+  padding-top: 70px;
+}
+
+
+/*CONTEUDOS GERAIS*/
+
+.content-section{
+background:rgb(255, 255, 255);
+margin-bottom: 100px;
+}
+
+.container-section{
+  max-width: 1440px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 120px;
+  gap: 68px 68px;
+}
+
+.conteudos-section{
+  max-width: 340px;
+  height: 423px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.container-section h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  margin-left: 30px;
+  margin-bottom: 26px;
+
+}
+
+.content-section p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #555555;
+  width: 282px;
+  margin-left: 30px;
+}
+
+.bg{
+  width: 340px;
+  background: #63ECFF;
+  height: 222px;
+  margin-bottom: 21px;
+}
+
+.b1{
+  background: #FF6363;
+}
+.b2{
+  background: #63ECFF;
+}
+
+.b3{
+ background: #F363FF; 
+}
+
+.b4{
+  background: #63FF73;
+}
+
+.b5{
+  background: #FFDD63;
+}
+
+.b6{
+  background: #6663FF;
+}
+
+
+/*FORMULARIO*/
+.formulario{
+  background:#D7D5FF ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
+.formulario h2{
+  text-align:center ;
+  padding-top: 80px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 40px;
+}
+.nome{
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.nome input{
+  width: 470px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  margin: 15px;
+}
+
+.nome textarea{
+  width: 470px;
+  margin-left: 15px;
+  height: 165px;
+  border: none;
+  text-align:left;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.nome button{
+  width: 470px;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+
+/*MEDIA SCREEN*/
+
+@media (max-width:1051px){
+  .img{
+    max-width: 400px;
+    padding-top: 70px;
+  }
+}
+
+@media (max-width:951px){
+  .img{
+    max-width: 300px;
+    padding-top: 80px;
+  }
+
+  .conteudos{
+    max-width: 309px;
+    padding-top: 140px;
+  }
+  
+  .conteudos h1{
+    font-size: 1.8rem;
+    line-height:2.938rem;
+    margin-bottom: 17.5px;
+  }
+  
+  .conteudos p{
+    font-size: 0.9rem;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    color: #555555;
+  }
+
+  button{
+    padding: 12px 40px;
+  }
+}
+
+@media (max-width:811px){
+  .img{
+    max-width: 
+    280px;
+    padding-top: 180px;
+  }
+ 
+ .container{
+  margin-left: 30px;
+  margin-right: 30px;
+ }
+  .conteudos h1{
+    font-size: 1.8rem;
+    line-height:2.938rem;
+    margin-bottom: 17.5px;
+  }
+  
+  .conteudos p{
+    font-size: 0.9rem;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    color: #555555;
+  }
+  button{
+    padding: 12px 40px;
+  }
+}
+ 
+@media (max-width:768px){
+  .content{
+    height: 480px;
+  }
+  .img{
+    max-width:200px;
+    padding-top: 180px;
+  }
+ 
+ .container{
+  margin-left: 100px;
+  margin-right: 107px;
+ }
+  .conteudos h1{
+    font-size: 1.5rem;
+    line-height:2.938rem;
+    margin-bottom: 2px;
+  }
+
+  .conteudos{
+    padding-top: 90px;
+  }
+  
+  .conteudos p{
+    font-size: 0.9rem;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    color: #555555;
+  }
+  button{
+    padding: 12px 40px;
+  }
+  
+.content-section{
+  background:rgb(255, 255, 255);
+  margin-bottom: 80px;
+  }
+  
+  .container-section{
+    max-width: 1440px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 80px;
+    gap: 38px 68px;
+  }
+  
+  .conteudos-section{
+    max-width: 240px;
+    height: 323px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .container-section h2{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.875rem;
+    margin-left: 30px;
+    margin-bottom: 26px;
+  
+  }
+  
+  .content-section p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.875rem;
+    color: #555555;
+    width: 182px;
+    margin-left: 30px;
+  }
+  
+  .bg{
+    width: 240px;
+    height: 122px;
+    margin-bottom: 21px;
+  }
+}
+ 
+@media (max-width:716px){
+  .content{
+    height: 480px;
+  }
+  .img{
+    max-width:200px;
+    padding-top: 180px;
+  }
+ 
+ .container{
+  margin-left: 20px;
+  margin-right: 17px;
+ }
+  .conteudos h1{
+    font-size: 1.2rem;
+    line-height:2.938rem;
+    margin-bottom: 2px;
+  }
+
+  .conteudos{
+    padding-top: 90px;
+  }
+  
+  .conteudos p{
+    font-size: 0.7rem;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    color: #555555;
+  }
+  button{
+    padding: 10px 30px;
+  }
+  
+.content-section{
+  background:rgb(255, 255, 255);
+  margin-bottom: 80px;
+  }
+  
+  .container-section{
+    max-width: 1440px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 80px;
+    gap: 38px 68px;
+  }
+  
+  .conteudos-section{
+    max-width: 240px;
+    height: 323px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .container-section h2{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.875rem;
+    margin-left: 30px;
+    margin-bottom: 26px;
+  
+  }
+  
+  .content-section p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.875rem;
+    color: #555555;
+    width: 182px;
+    margin-left: 30px;
+  }
+  
+  .bg{
+    width: 240px;
+    height: 122px;
+    margin-bottom: 21px;
+  }
+}
+ 
+@media (max-width:548px){
+
+  .content{
+    height: 590px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+  .img{
+    max-width:240px;
+    padding-top:10px;
+  }
+ 
+ .container{
+  margin-left: 80px;
+ }
+  .conteudos h1{
+    font-size: 1.9rem;
+    margin-bottom: 2px;
+  }
+
+  .conteudos{
+    padding-top: 20px;
+  }
+  
+  .conteudos p{
+    font-size: 0.7rem;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    color: #555555;
+  }
+  button{
+    padding: 10px 30px;
+  }
+  
+.content-section{
+  background:rgb(255, 255, 255);
+  margin-bottom: 80px;
+  }
+  
+  .container-section{
+    max-width: 400px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:650px;
+    gap: 28px 28px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .conteudos-section{
+    max-width: 660px;
+    flex-wrap: wrap;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .container-section h2{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.875rem;
+    margin-left: 10px;
+    margin-bottom: 26px;
+  
+  }
+  
+  .content-section p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.875rem;
+    color: #555555;
+    width: 140px;
+    margin-left: 10px;
+  }
+  
+  .bg{
+    width: 160px;
+    height: 100px;
+    margin-bottom: 21px;
+  }
+
+  .formulario{
+    background:#D7D5FF ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+    max-width: 100%;
+  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .formulario h2{
+    text-align:center ;
+    padding-top: 80px;
+    font-size: 1.4rem;
+    line-height: 0px;
+  }
+  .nome{
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-left: 100px;
+  }
+  .nome input{
+    width: 270px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    margin: 15px;
+  }
+  
+  .nome textarea{
+    width: 270px;
+    margin-left: 15px;
+    height: 165px;
+    border: none;
+    text-align:left;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .nome button{
+    width: 270px;
+    margin-left: 15px;
+    padding-top: 15px;
+  }
+  
+}
+ 
+
+@media (max-width:425px){
+
+  .content{
+    height: 590px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+  .img{
+    max-width:240px;
+    padding-top:90px;
+
+  }
+ 
+ .container{
+  margin-left: 40px;
+ }
+ 
+  .formulario{
+    background:#D7D5FF ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .formulario h2{
+    text-align:center ;
+    padding-top: 80px;
+    font-size: 1.4rem;
+    line-height: 0px;
+  }
+  .nome{
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-left:60px;
+   
+  }
+  .nome input{
+    width: 270px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    margin: 15px;
+  }
+  
+  .nome textarea{
+    width: 270px;
+    margin-left: 15px;
+    height: 165px;
+    border: none;
+    text-align:left;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .nome button{
+    width: 270px;
+    margin-left: 15px;
+    padding-top: 15px;
+  }
+  
+}
+
+@media (max-width:375px){
+
+  .content{
+    height: 590px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+  .img{
+    max-width:240px;
+    padding-top:90px;
+
+  }
+ 
+ .container{
+  margin-left: 20px;
+ }
+
+ .conteudos h1{
+  font-size: 1.6rem;
+  margin-bottom: 2px;
+}
+
+.conteudos{
+  padding-top: 20px;
+}
+
+.conteudos p{
+  font-size: 0.7rem;
+  line-height: 2rem;
+  margin-bottom: 25px;
+  color: #555555;
+}
+button{
+  padding: 8px 20px;
+}
+
+.content-section{
+background:rgb(255, 255, 255);
+margin-bottom: 80px;
+}
+
+.container-section{
+  max-width: 350px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top:650px;
+  gap: 28px 28px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.conteudos-section{
+  max-width: 330px;
+  flex-wrap: wrap;
+  height: 450px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.container-section h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 1.875rem;
+  margin-left: 10px;
+  margin-bottom: 26px;
+
+}
+
+.content-section p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #555555;
+  width: 340px;
+  margin-left: 10px;
+}
+
+.bg{
+  width: 330px;
+  height: 200px;
+  margin-bottom: 21px;
+}
+
+ 
+  .formulario{
+    background:#D7D5FF ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .formulario h2{
+    text-align:center ;
+    padding-top: 80px;
+    font-size: 1.4rem;
+    line-height: 0px;
+  }
+  .nome{
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-left:40px;
+   
+  }
+  .nome input{
+    width: 270px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    margin: 15px;
+  }
+  
+  .nome textarea{
+    width: 270px;
+    margin-left: 15px;
+    height: 165px;
+    border: none;
+    text-align:left;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .nome button{
+    width: 270px;
+    margin-left: 15px;
+    padding-top: 15px;
+  }
+  
+}
+
+@media (max-width:320px){
+
+  .content{
+    height: 590px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+  .img{
+    max-width:240px;
+    padding-top:90px;
+
+  }
+ 
+ .container{
+  margin-left: 20px;
+ }
+
+ .conteudos h1{
+  font-size: 1.6rem;
+  margin-bottom: 2px;
+}
+
+.conteudos{
+  padding-top: 20px;
+}
+
+.conteudos p{
+  font-size: 0.7rem;
+  line-height: 2rem;
+  margin-bottom: 25px;
+  color: #555555;
+}
+button{
+  padding: 8px 20px;
+}
+
+.content-section{
+background:rgb(255, 255, 255);
+margin-bottom: 80px;
+}
+
+.container-section{
+  max-width: 350px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top:650px;
+  gap: 28px 28px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.conteudos-section{
+  max-width: 280px;
+  flex-wrap: wrap;
+  height: 450px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.container-section h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  margin-left: 10px;
+  margin-bottom: 26px;
+
+}
+
+.content-section p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #555555;
+  width: 340px;
+  margin-left: 10px;
+}
+
+.bg{
+  width: 280px;
+  height: 200px;
+  margin-bottom: 21px;
+}
+
+ 
+  .formulario{
+    background:#D7D5FF ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .formulario h2{
+    text-align:center ;
+    padding-top: 80px;
+    font-size: 1.4rem;
+    line-height: 0px;
+  }
+  .nome{
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-left:30px;
+   
+  }
+  .nome input{
+    width: 230px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    margin: 15px;
+  }
+  
+  .nome textarea{
+    width: 230px;
+    margin-left: 15px;
+    height: 165px;
+    border: none;
+    text-align:left;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .nome button{
+    width: 230px;
+    margin-left: 15px;
+    padding-top: 15px;
+  }
+  
+}
