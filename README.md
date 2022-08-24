@@ -33,9 +33,4 @@ o projeto  esta responsivo a telas menores e contem alguns conceitos basicos de 
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </div>
 <br>
-#Entre em contato comigo 
-<div align="left">
-<img src ="https://github.com/Lucas8901/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-<img src ="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</div>
 
