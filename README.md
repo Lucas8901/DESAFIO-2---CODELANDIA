@@ -1,6 +1,6 @@
 # DESAFIO-3-CODELANDIA
 
-## Esta é uma landing page do terceiro desafio da comunidade codelandia 
+## Esta é uma landing page do terceiro desafio da comunidade codelândia 
 <br>
 
 - <h2 align="left">Descrição do projeto</h2>
